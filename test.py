@@ -17,14 +17,6 @@ from pyspark.sql.dataframe import DataFrame
 from datetime import datetime
 
 
-# @configure(profile=['NUM_EXECUTORS_16', 'DRIVER_MEMORY_LARGE', 'EXECUTOR_MEMORY_MEDIUM'])
-
-# @transform_df(
-#     Output("/BMW/Data Analysis Driving Dynamics Components Cluster1/EF-5 Datenanalyse/EF-53_Datenanalyse/02_datasets/test"),
-#     JoinData=Input("ri.foundry.main.dataset.135b2ed0-3760-4b61-a462-e98b7cf627f7")
-#     # source_flm4 = Input('ri.foundry.main.dataset.3f3b0a32-35f1-4fde-9fb1-0c7158c34700')
-# )
-
 
 class Bucketizer_func():
 
