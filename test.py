@@ -1,5 +1,5 @@
-# Author: Debarchan Chatterjee and Sascha Groetzki 
-# creation date : 15 May 2023
+# Author: Debarchan Chatterjee
+
 
 # from pyspark.sql import functions as F
 from pyspark.sql.functions import col, lag, lead, isnull, concat, when, row_number, last, sum, lit, format_string, to_timestamp, unix_timestamp, dayofweek, hour, countDistinct
